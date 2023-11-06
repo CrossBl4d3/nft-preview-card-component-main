@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+
+}
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: rgb(3, 3, 31);
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+main{
+    background-color: hsl(203, 97%, 12%);
+    display: grid;
+    justify-content: center;
+    width: 400px;
+    border-radius: 20px;
+    padding-top: 20px;
+    
+
+}
+.equi{
+    height: 350px;
+    border-radius: 20px;
+    display: grid;
+    justify-self: center;
+
+}
+.eth{
+    display: flex;
+    display: inline;
+}
+hr{
+    border: solid rgb(2, 61, 61) 0.1px;
+    width: 350px;
+    display: grid;
+    place-self: center;
+   
+}
+.jules{
+    height: 40px;
+    border-radius: 50%;
+    border: solid white;
+    margin-bottom: 20px;
+}
+.wyvern{
+display: flex;
+
+
+}
+.stuff{
+    display: flex;
+    justify-content: space-between;
+}
+.attribution{
+    padding-bottom: 10px;
+}
+.creation{
+    padding-left: 20px;
+    font-size: 400px;
+}
+.cube{
+    background-image: url(./images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.equi:hover{
+background-color: blue;
+opacity: 0.5;
+}
